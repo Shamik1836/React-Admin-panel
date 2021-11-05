@@ -1,0 +1,63 @@
+// import React from "react";
+// import styled from "styled-components";
+// const WidgetLg = () => {
+//   const Button = ({ type }) => {
+//     return <ButtonLg>{type}</ButtonLg>;
+//   };
+//   return (
+//     <WidgetLarge>
+//       <WidgetLargeTitle>Latest Transactions</WidgetLargeTitle>
+//       <WidgetLgTable>
+//         <WidgetLgTBody>
+//           <WidgetLgTr>
+//             <WidgetLgTh>Customer</WidgetLgTh>
+//             <WidgetLgTh>Date</WidgetLgTh>
+//             <WidgetLgTh>Amount</WidgetLgTh>
+//             <WidgetLgTh>Status</WidgetLgTh>
+//           </WidgetLgTr>
+//           <WidgetLgTr>
+//             <WidgetLgUser>
+//               <WidgetLgImg src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+//               <WidgetLgName>Susan Carol</WidgetLgName>
+//             </WidgetLgUser>
+//             <WidgetLgDate>2 Jun 2021</WidgetLgDate>
+//             <WidgetLgAmount>$122.00</WidgetLgAmount>
+//             <WidgetLgStatus></WidgetLgStatus>
+//           </WidgetLgTr>
+//         </WidgetLgTBody>
+//       </WidgetLgTable>
+//     </WidgetLarge>
+//   );
+// };
+
+// export default WidgetLg;
+// const WidgetLarge = styled.div`
+//   flex: 2;
+//   -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+//   box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+//   padding: 20px;
+//   margin-right: 20px;
+// `;
+// const WidgetLargeTitle = styled.h3`
+//   font-size: 22px;
+// `;
+// const WidgetLgTable = styled.table``;
+// const WidgetLgTr = styled.tr``;
+// const WidgetLgTh = styled.th``;
+// const WidgetLgUser = styled.td``;
+// const WidgetLgImg = styled.img`
+//   width: 40px;
+//   height: 40px;
+//   border-radius: 50%;
+//   object-fit: cover;
+// `;
+// const WidgetLgName = styled.span``;
+// const WidgetLgDate = styled.td``;
+// const WidgetLgAmount = styled(WidgetLgDate);
+// const WidgetLgStatus = styled(WidgetLgDate);
+// const ButtonLg = styled.button`
+//   padding: 5px 7px;
+//   border: none;
+//   border-radius: 10px;
+// `;
+// const WidgetLgTBody = styled.tbody``;
